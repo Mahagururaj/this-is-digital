@@ -52,20 +52,17 @@ gsap.from(".page4 img , .page4 h1",{
         trigger:".page4",
         scroller:"body",
         start:"top 50%",
-        markers:true
-        
     },
     y:60
 
 })
-gsap.from(".page6 h3 , .page6 h4 ,.page6 h",{
+gsap.from(".page6 h3 , .page6 h4 ,.page6 h1",{
     opacity:0,
     stagger:0.4,
     scrollTrigger:{
         trigger:".page4",
         scroller:"body",
         start:"top 50%",
-        markers:true
         
     },
     y:60
