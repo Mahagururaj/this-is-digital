@@ -60,7 +60,7 @@ gsap.from(".page6 h3 , .page6 h4 ,.page6 h1",{
     opacity:0,
     stagger:0.4,
     scrollTrigger:{
-        trigger:".page4",
+        trigger:".page6 h1",
         scroller:"body",
         start:"top 50%",
         
