@@ -41,6 +41,10 @@ body {
     padding: 0 3vw;
     z-index: 9999;
 }
+.nav i{
+
+    display: none;
+}
 .nav h1{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 35px;
@@ -422,3 +426,409 @@ body {
     font-family: coop;
     font-weight: 100;
   }
+.page6{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    
+}
+.page6-img{
+    position: absolute;
+    left: 13%;
+    top: 15%;
+    background: url(https://optimise2.assets-servd.host/squalid-loris/production/uploads/images/This-is-digital-LOW-RES-239.jpg?w=1200&h=394&q=80&fm=webp&fit=crop&fp-x=0.5&fp-y=0.5&dm=1631002673&s=a8225dd79a8eb0d05ce0db6b2a5efd03);
+    width: 70%;
+    height: 40%;
+    z-index: 2;
+    text-align: center;
+    padding-top: 5vw;
+    box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.449);
+}
+.page6-img h5{
+    font-size: 2vw;
+    font-family: cam;
+    font-weight: 900;
+    color: #FFFFFF;
+}
+.part6-elem{
+    margin-top: 2vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2vw;
+}
+.part6-elem img{
+    width: 4vw;
+    height: 4vw;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.part6-elem h5{
+    font-size: 1.5vw;
+    font-family: cam;
+
+}
+.part6-elem button{
+    font-size: 1.5vw;
+    padding: 0.5vw 1.5vw;
+    border-radius: 2vw;
+    background: transparent;
+    border: 1px solid #e6fdf4;
+    color: #FFFFFF;
+    overflow: hidden;
+    position: relative;
+    
+}
+.part6-elem button::after{
+    content: "";
+    position: absolute;
+    width: 0%;
+    height: 100%;
+    background: #00eb8f;
+    top: 0;
+    left: 0%;
+    z-index: -1;
+    transition: 1s all ease;
+
+}
+.part6-elem button:hover::after{
+    width: 100%;
+}
+
+.footer{
+    position: absolute;
+    top: 35%;
+    width: 100%;
+    height: 80%;
+    background: rgb(0, 0, 0);    
+    display: flex;
+   /* text-align: center; */
+   align-items: center;
+   color: #FFFFFF;
+   justify-content: space-around;
+}
+.footer-elem h1{
+    font-size: 3vw;
+    font-family: cam;
+    font-weight: 400;
+    line-height: 4.5vw;
+    position: relative;
+   
+}
+.footer-elem h1::after{
+    content: "";
+    position: absolute;
+    width: 60%;
+    height: 70%;
+    bottom: -1vw;
+    right: 7.5vw;
+    background-image: url(./img/circle-green.svg);
+
+}
+.elem-footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5vw;
+    margin-top: 2vw;
+}
+
+.footer-elem h3{
+    font-size: 1.5vw;
+    font-family: cam;
+}
+.footer-elem h4{
+    font-size: 1vw;
+    font-family: cam;
+    color: #ffffffb0;
+    padding-bottom: 0.6vw;
+    padding-top: 0.6vw;
+}
+
+@media (max-width: 800px) {
+    body{
+        overflow-X: hidden;
+    }
+    .nav h1{
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 5vw;
+        font-weight: 500;
+    }
+    .nav-part{
+        display: none;
+    }
+    .nav i{
+        font-size: 6vw;
+        display: block;
+    }
+    .page1 #img2{
+        display: none;
+    }
+    .page1 #img3{
+        display: none;
+    }
+    .page1{
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .page1>h1{
+        font-size: 7vw;
+        font-weight: 600;
+        font-family: "cam";
+        margin-bottom: 30%;
+        color: black;
+        position: relative;
+        
+    }
+    .page1 h1::after{
+        content: "";
+        position: absolute;
+        width: 45%;
+        height: 4vw;
+        background-image: url("./img/underline-green.svg");
+        background-size: cover;
+        background-position: top;
+        top: 15vw;
+    
+    }
+   
+    .page1 #img1{
+        height: 450px;
+        width: 100%;
+        position: absolute;
+        left: 0%;
+        object-fit: cover;
+        top: 50%;
+    }
+
+    .page2{
+        height: 50vh;
+
+    }
+    .page2 h5{
+        font-size: 3.5vw;
+    }
+    .page2 h5::before{
+     display: none;
+    }
+     .page2 h1{
+        font-size: 5.5vw;
+     }
+     .page2 h1::after{
+        height: 20%;
+        width: 30%;
+        bottom: -5px;
+        left: 34%;    
+     }
+     .about-us>h4{
+        font-size: 3.5vw;
+     }
+     .arrow{
+        margin-left: 2vw;
+     }
+     .about-us img{
+        height: 5vw;
+     }
+     .page3{
+        height: 100%;
+        flex-direction: column;
+
+    }
+    .part3-part1{
+        width: 100%;
+        height: 50%;
+        display: flex;
+    }
+    .img-part1{
+        width: 40vw;
+        height: 100%;
+        margin-right: 5%;
+    
+    }
+    .img-part1 img:nth-child(1){
+        width: 120%;
+        height: 58%;
+    }
+    .img-part1 img:nth-child(2){
+        width: 120%;
+        height: 30%;
+    }
+    .img-part2{
+        width: 60vw;
+        height: 100%;
+        margin-left: 9%;
+    }
+    .img-part2 img:nth-child(1){
+        width: 85%;
+        height: 30%;
+        object-fit: cover;
+        margin-bottom: 5px;
+    }
+    .img-part2 img:nth-child(2){
+        width: 120%;
+        height: 65%;
+    }
+    .part3-part2{
+        width: 100%;
+        height: 100vh;
+        padding: 0vw;
+        padding-left: 3vw ;
+    }
+    .part3-part2 h1{
+        text-align: center;
+        font-size: 7vw;
+        line-height: 7.5vw;
+        padding-bottom: 1vw;
+    
+    }
+    
+    .part3-part2 h1::after{
+        content: "";
+        width: 28%;
+        top: 40%;
+        left: 40%;
+        height: 2vw;
+    }
+    .part3-part2 p{
+        font-size: 3.5vw;
+        color: #070000dd;
+        padding-bottom: 2.5vw;
+    }
+    .part3-elem{
+        display: flex;
+        gap: 2vw;
+        align-items: center;
+        justify-content: center;
+    }
+    .part3-elem img{
+        width: 15vw;
+        height: 15vw;
+    }
+    .part3-elem h5{
+        font-size: 3.5vw;
+        
+    }
+    .part3-elem button{
+        padding: 2vw 8vw;
+        border-radius: 4vw;
+        font-size: 2vw;
+    }
+
+    .page4{
+        width: 100%;
+        height: 60vh;
+    }
+    .page4 h1{
+        padding-top: 2vw;
+        font-size: 8vw;
+        font-weight: 500;
+        line-height: 9.5vw;
+    }
+    .page4 h1::after{
+        top: 2.5%;
+        left: 38.5%;
+        width: 21%;
+        height: 35%;
+    
+    }
+    #elements {
+        height: 60vh;
+        width: 100%;
+        padding: 0vw 4vw;
+    }
+    
+    #elements img {
+        height: 10vh;
+        margin: 0px;
+    }
+    .page5{
+        width: 100%;
+        height: 50vh;
+    }
+
+    
+      .swiper-slide img {
+        width: 25vw;
+        height: 25vw;
+      }
+      .swiper-slide p{
+        font-size: 4vw;
+      }
+      .swiper-slide h3{
+        font-size: 5vw;
+      }
+
+      .page6{
+        width: 100%;
+        height: 50vh;        
+    }
+
+    .page6-img h5{
+        margin-top: 3vw;
+        font-size: 2.5vw;
+        line-height: 3vw;
+        font-weight: 600;
+    }
+    .part6-elem{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 2vw;
+    }
+    .part6-elem img{
+        width: 9vw;
+        height: 9vw;
+        border-radius: 50%;
+        object-fit: cover;
+    }
+    .part6-elem h5{
+        margin-bottom: 2vw;
+        font-size: 2.5vw;
+        font-family: cam;
+    
+    }
+    .part6-elem button{
+        font-size: 2.5vw;
+    }
+    
+    .footer-elem h1{
+        font-size: 5vw;
+        line-height: 6vw;
+        display: none;
+       
+    }
+    .footer-elem h1::after{
+        width: 39%;
+        height: 70%;
+        bottom: -1.5vw;
+        right: 32vw;
+        background-image: url(./img/circle-green.svg);
+    
+    }
+    .elem-footer{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 0.5vw;
+        margin-top: 2vw;
+        display: none;
+    }
+    
+    .footer-elem h3{
+        font-size: 3vw;
+        font-family: cam;
+    }
+    .footer-elem h4{
+        font-size: 2.5vw;
+        font-family: cam;
+        color: #ffffffb0;
+        padding-bottom: 0.6vw;
+        padding-top: 0.6vw;
+    }
+
+    
+    
+}

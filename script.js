@@ -32,6 +32,45 @@ gsap.from(".page2 h5 , .page2 h1 , .about-us",{
         start:"top 60%",
     }
 })
+
+gsap.from(".page3 img , .page3 h1 , .page3 p,.part3-elem",{
+    opacity:0,
+    stagger:0.4,
+    scrollTrigger:{
+        trigger:".page2 .about-us",
+        scroller:"body",
+        start:"top 0%",
+        
+    },
+    y:60
+
+})
+gsap.from(".page4 img , .page4 h1",{
+    opacity:0,
+    stagger:0.4,
+    scrollTrigger:{
+        trigger:".page4",
+        scroller:"body",
+        start:"top 50%",
+        markers:true
+        
+    },
+    y:60
+
+})
+gsap.from(".page6 h3 , .page6 h4 ,.page6 h",{
+    opacity:0,
+    stagger:0.4,
+    scrollTrigger:{
+        trigger:".page4",
+        scroller:"body",
+        start:"top 50%",
+        markers:true
+        
+    },
+    y:60
+
+})
 var swiper = new Swiper(".mySwiper", {
     spaceBetween: 30,
     centeredSlides: true,
