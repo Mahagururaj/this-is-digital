@@ -1,3 +1,5 @@
+
+
 gsap.from("#img1",{
     opacity:0,
     duration:1,
@@ -37,7 +39,7 @@ gsap.from(".page3 img , .page3 h1 , .page3 p,.part3-elem",{
     opacity:0,
     stagger:0.4,
     scrollTrigger:{
-        trigger:".page2 .about-us",
+        trigger:".page2 h1",
         scroller:"body",
         start:"top 0%",
         
@@ -52,15 +54,16 @@ gsap.from(".page4 img , .page4 h1",{
         trigger:".page4",
         scroller:"body",
         start:"top 50%",
+        
     },
     y:60
 
 })
-gsap.from(".page6 h3 , .page6 h4 ,.page6 h1",{
+gsap.from(".page6 h3 , .page6 h4 ,.page6 h",{
     opacity:0,
-    stagger:0.4,
+    stagger:0.2,
     scrollTrigger:{
-        trigger:".page6 h1",
+        trigger:".page6",
         scroller:"body",
         start:"top 50%",
         
