@@ -67,12 +67,19 @@ body {
     margin: 10px;
     color: #000000;
 }
+.nav-part a:hover{
+   color: #00eb8f;
+}
 
+.nav-part a:nth-last-child(1):hover{
+    color: #000000;
+}
 .nav-part a:nth-last-child(1){
     padding: 0.8vw 3vw ;
     border-radius: 50px;
     border: 1px solid black;
     position: relative;
+    color: #000000;
     overflow: hidden;
     z-index: 999;
 
@@ -200,7 +207,7 @@ body {
     height: 75px;
     width: 215px;
     bottom: -9px;
-    left: 3%;
+    left: 37%;
     background-image: url("./img/circle-green.svg");
 
 
